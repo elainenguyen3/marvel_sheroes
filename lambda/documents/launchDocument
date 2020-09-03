@@ -1,0 +1,53 @@
+{
+    "type": "APL",
+    "version": "1.1",
+    "settings": {},
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.1.0"
+        }
+    ],
+    "resources": [],
+    "styles": {
+        "bigText": {
+            "values": [
+                {
+                    "fontSize": "72dp",
+                    "color": "black",
+                    "textAlign": "center"
+                }
+            ]
+        }
+    },
+    "onMount": [],
+    "graphics": {},
+    "commands": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "items": [
+                    {
+                        "type": "AlexaImage",
+                        "alignSelf": "center",
+                        "imageSource": "${payload.assets.cake}",
+                        "imageRoundedCorner": false,
+                        "imageScale": "best-fit",
+                        "imageHeight":"100vh",
+                        "imageAspectRatio": "standard_landscape",
+                        "imageBlurredBackground": false
+                    }
+                ],
+                "height": "100%",
+                "width": "100%",
+                "when": "${@viewportProfile != @hubRoundSmall}"
+            }
+        ]
+    }
+}
