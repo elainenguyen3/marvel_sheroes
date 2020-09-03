@@ -1,0 +1,225 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "marvel sheroes",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "CaptainMarvelIntent",
+          "slots": [],
+          "samples": [
+            "first one",
+            "captain",
+            "marvel",
+            "captain marvel"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ShuriIntent",
+          "slots": [],
+          "samples": [
+            "second",
+            "second one",
+            "shuri from black panther",
+            "black panther",
+            "shuri"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        },
+        {
+          "name": "NextPage",
+          "slots": [],
+          "samples": [
+            "ok",
+            "next",
+            "mhm"
+          ]
+        },
+        {
+          "name": "ThoughtIntent",
+          "slots": [
+            {
+              "name": "thoughts",
+              "type": "thought"
+            }
+          ],
+          "samples": [
+            "{thoughts}",
+            "I think {thoughts}",
+            "I thought {thoughts}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "That\u0027s a good idea"
+              }
+            },
+            {
+              "name": {
+                "value": "I hated it. It was boring."
+              }
+            },
+            {
+              "name": {
+                "value": "I loved it! Shuri is awesome."
+              }
+            },
+            {
+              "name": {
+                "value": "i don\u0027t care"
+              }
+            },
+            {
+              "name": {
+                "value": "i loved it"
+              }
+            },
+            {
+              "name": {
+                "value": "i love it"
+              }
+            },
+            {
+              "name": {
+                "value": "i liked it"
+              }
+            },
+            {
+              "name": {
+                "value": "i like it"
+              }
+            },
+            {
+              "name": {
+                "value": "i hated it"
+              }
+            },
+            {
+              "name": {
+                "value": "i hate it"
+              }
+            },
+            {
+              "name": {
+                "value": "It was exciting"
+              }
+            },
+            {
+              "name": {
+                "value": "I want to know what happens next"
+              }
+            },
+            {
+              "name": {
+                "value": "I\u0027m gonna go now"
+              }
+            },
+            {
+              "name": {
+                "value": "it was boring"
+              }
+            },
+            {
+              "name": {
+                "value": "it was interesting"
+              }
+            },
+            {
+              "name": {
+                "value": "Shuri sucks"
+              }
+            },
+            {
+              "name": {
+                "value": "it was bad"
+              }
+            },
+            {
+              "name": {
+                "value": "it was good"
+              }
+            },
+            {
+              "name": {
+                "value": "I hated this."
+              }
+            },
+            {
+              "name": {
+                "value": "it was a great story. I love Shuri, she\u0027s awesome!"
+              }
+            }
+          ],
+          "name": "thought"
+        }
+      ]
+    }
+  },
+  "version": "14"
+}
